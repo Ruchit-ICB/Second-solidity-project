@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SHA256 Hashing App</title>
+  <style>
+    body { font-family: Arial; margin: 40px; }
+    input, textarea { width: 100%; padding: 10px; margin-top: 10px; }
+    button { padding: 10px 20px; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>SHA256 Hashing App</h1>
+  <textarea id="inputText" rows="5" placeholder="Enter text to hash..."></textarea>
+  <button onclick="generateHash()">Generate Hash</button>
+  <h3>SHA256 Hash:</h3>
+  <textarea id="hashOutput" rows="5" readonly></textarea>
+
+  <script src="https://cdn.jsdelivr.net/npm/crypto-js@4.1.1/crypto-js.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
